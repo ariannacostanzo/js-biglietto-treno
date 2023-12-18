@@ -8,3 +8,12 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio,
 - va applicato uno sconto del 40% per gli over 65.
 L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 Buon lavoro!
+
+SCALETTA:
+
+1. Chiedere all'utente il numero chilometri
+2. Chiedere all'utente l'età
+3. Stabilire il prezzo del viaggio con questi dati
+4. Creare la condizione per cui in base all'età ci potrebbe essere uno sconto
+5. Inserire il prezzo finale nella pagina html
+6. Controllare tutti quei casi in cui l'utente potrebbe immettere qualcosa di diverso rispetto a cosa è stato chiesto.
