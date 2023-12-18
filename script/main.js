@@ -11,7 +11,7 @@ let paragraph = document.getElementById('myParagraph');
 
 // 1. Chiedere all'utente il numero chilometri
 
-const kilometersNumber = parseInt(prompt("Quanti Kilometri vuoi percorrere", 80.51793));
+const kilometersNumber = parseInt(prompt("Quanti chilometri vuoi percorrere", 80.51793));
 
 // 2. Chiedere all'utente l'età
 
@@ -51,6 +51,7 @@ if (isNaN(kilometersNumber) || isNaN(userAge)) {
     // 5. Inserire il prezzo finale nella pagina html, solo se tutto funziona
     paragraph.innerHTML = message;
 }
+
 
 
 
